@@ -16,7 +16,7 @@ def main():
             signup = False
             while not signup:
                 print('--------------------------------------------------------')
-                print('|\t\t\t\t\t\t\t|\n|\tWe are glad you are here.\t\t\t|\n|\t\t\t\t\t\t\t|\n|Please enter first name\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
+                print('|\t\t\t\t\t\t\t|\n|\tHi the system says- "Happy you are running me".\t\t\t|\n|\t\t\t\t\t\t\t|\n|Please enter first name\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
                 print('--------------------------------------------------------')
                 first_name = input()
                 if first_name == '1':
