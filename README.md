@@ -20,7 +20,7 @@ The user would like to.... :
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate 
-* python3.6
+* python3.6 and above versions
 * pyperclip
 * pip
 
