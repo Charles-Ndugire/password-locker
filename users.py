@@ -14,7 +14,7 @@ class User:
         return self.first_name
 
     def get_last_name(self):
-        '''Return user instsnce last name'''
+        '''Return user instance last name'''
         return self.last_name
 
     def get_email(self):
@@ -30,7 +30,7 @@ class User:
         self.password = password
 
     def account_created(self):
-        '''Return if a User exists on the DB.'''
+        '''Return if a User already exists in the DB.'''
         with open(User.database, 'r') as check_creation:
             csv_data = csv.DictReader(check_creation)
             for line in csv_data:
@@ -102,7 +102,7 @@ class User:
 
     @classmethod
     def check_account_exist(self, email, password):
-        '''Search if a user exists on the db.'''
+        '''Search if a user exists on the DB.'''
         with open(User.database, 'r') as check_creation:
             csv_data = csv.DictReader(check_creation)
             for line in csv_data:
