@@ -7,7 +7,7 @@ class TestCredential(unittest.TestCase):
 
     def setUp(self):
         '''Set up credentials that will be used in the tests.'''
-        self.test_user_credential = Credential('grishon.nganga01@gmail.com', 'Twitter', '123@Iiht')
+        self.test_user_credential = Credential('ndugirecharles@gmail.com', 'Twitter', '123@Iiht')
         self.test_other_user_credential = Credential('grishon.nganga01@gmail.com', 'Instagram', '123@Iiht')
 
     def tearDown(self):
