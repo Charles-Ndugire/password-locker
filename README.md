@@ -56,14 +56,13 @@ The user would like to.... :
 
 ## Technologies Used
 
-* python3.6
+* python3.9
 
 ## Known Bugs
-* There are no known bugs currently but pull requests are allowed incase you spot a bug
-
+* No known bugs currently .
 ## Contact Information 
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+If you have any question or contributions, please email me at [ndugirecharles@gmail.com]
 
 ## License
 * *MIT License:*
