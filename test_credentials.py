@@ -66,7 +66,7 @@ class TestCredential(unittest.TestCase):
         self.assertFalse(account_exist)
 
     def test_randomizer(self):
-        '''Tests and ensures the radomizer() generates a legit passwords'''
+        '''Tests and ensures the radomizer() generates the passwords'''
         random_password = Credential.randomizer()
         self.assertGreater(len(random_password), 7)
         self.assertLess(len(random_password), 9)
