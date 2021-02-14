@@ -5,8 +5,8 @@ import os
 class TestUsers(unittest.TestCase):
 
     def setUp(self):
-        '''Set up data to be used in all the tests.'''
-        self.new_user = User('Kishy', 'Gikish', 'kishy@gmail.com','123@Iiht' )
+        '''Setting up data to be used in all the tests.'''
+        self.new_user = User('Gaswoy', 'Holy', 'gaswoy@gmail.com','123@Iiht' )
 
     def tearDown(self):
         '''Clean up data after all tests.'''
@@ -44,7 +44,7 @@ class TestUsers(unittest.TestCase):
         self.assertTrue(account_exists)
 
     def test_create_account(self):
-        '''Test to rndure method can succussfully create a user account on the db.'''
+        '''Test to ensure method can succussfully create a user account on the db.'''
         #Perform
         first = self.new_user.create_account()
  
