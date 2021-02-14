@@ -46,7 +46,8 @@ The user would like to.... :
 
 
 * Navigate into the directory cd /password-locker
-* Run the application python3.9 run.py
+* Run the application 
+         $ python3.9 run.py
 
 
 ## Technologies Used
