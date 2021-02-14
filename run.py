@@ -46,7 +46,7 @@ def main():
                                 user_created = User(first_name, last_name, email, password)
                                 if user_created.create_account():
                                     print('--------------------------------------------------------')
-                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tUser created successfully!\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
+                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t Hello! User created successfully!\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
                                     print('--------------------------------------------------------')
                                     status = input()
                                     if status == '1':
