@@ -84,7 +84,7 @@ class TestCredential(unittest.TestCase):
         self.assertTrue(a_credential_exist)
 
     def test_delete_account(self):
-        '''Tests and ensures delete op occurs successfully.'''
+        '''Tests and ensures deletes successfully.'''
         self.test_user_credential.create_credential()
         account_created = Credential.check_an_account_exist(self.test_user_credential.get_email(), self.test_user_credential.get_account())
         is_deleted = Credential.delete_account(self.test_other_user_credential.get_email(), self.test_other_user_credential.get_account())
