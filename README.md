@@ -62,7 +62,7 @@ The user would like to.... :
 * No known bugs currently .
 ## Contact Information 
 
-If you have any question or contributions, please email me at [ndugirecharles@gmail.com]
+For queries ,  email me at [ndugirecharles@gmail.com]
 
 ## License
 * *MIT License:*
