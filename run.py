@@ -74,7 +74,7 @@ def main():
                     login = not login
                 else:
                     print('--------------------------------------------------------')
-                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Please enter your password\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
+                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Enter your password\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
                     print('--------------------------------------------------------')
                     password = input()
                     if password == '1':
