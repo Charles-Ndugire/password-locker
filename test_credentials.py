@@ -6,7 +6,7 @@ import csv, os
 class TestCredential(unittest.TestCase):
 
     def setUp(self):
-        '''Set up credentials that will be used in the tests.'''
+        '''Setting up credentials that will be used in the tests.'''
         self.test_user_credential = Credential('ndugirecharles@gmail.com', 'Twitter', '123@Iiht')
         self.test_other_user_credential = Credential('ndugirecharles@gmail.com', 'Instagram', '123@Iiht')
 
@@ -47,21 +47,21 @@ class TestCredential(unittest.TestCase):
             self.assertTrue(self.add_success)
 
     def test_check_account_exist(self):
-        '''From the instance method. Search the db and ensure an account exists'''
+        '''From the instance method. Search the DB and ensures the account exists'''
         self.test_user_credential.create_credential()
 
         account_exist = self.test_user_credential.check_account_exist()
         self.assertTrue(account_exist)
 
     def test_check_account_exist(self):
-        '''From the class method. Search the db and ensure an account exists'''
+        '''From the class method. Search the DB and ensure an account exists'''
         self.test_user_credential.create_credential()
 
         account_exist = Credential.check_an_account_exist(self.test_user_credential.get_email(), self.test_user_credential.get_account())
         self.assertTrue(account_exist)
 
     def test_check_account_exist_without_db(self):
-        '''Tests and ensures check_an_account_exist() does not return True if the db is nonexistent.'''
+        '''Tests and ensures check_an_account_exist() does not return True if the DB is non-Existent.'''
         account_exist = Credential.check_an_account_exist(self.test_user_credential.get_email(), self.test_user_credential.get_account())
         self.assertFalse(account_exist)
 
