@@ -1,6 +1,6 @@
 import csv, os
 class User:
-    '''Create User's instance'''
+    '''Create a User's instance'''
 
     database = 'users.csv'
     def __init__(self, first_name, last_name, email, password):
@@ -14,7 +14,7 @@ class User:
         return self.first_name
 
     def get_last_name(self):
-        '''Return user instsnce lsst name'''
+        '''Return user instsnce last name'''
         return self.last_name
 
     def get_email(self):
@@ -30,7 +30,7 @@ class User:
         self.password = password
 
     def account_created(self):
-        '''Return if a User exists on the db.'''
+        '''Return if a User exists on the DB.'''
         with open(User.database, 'r') as check_creation:
             csv_data = csv.DictReader(check_creation)
             for line in csv_data:
@@ -69,7 +69,7 @@ class User:
                 return False        
         
     def delete_account(self):
-        '''Remove a User instance from the db.'''
+        '''Remove a User instance from the DB.'''
         with open(User.database, 'r') as file:
             csv_file = csv.DictReader(file)
 
@@ -92,7 +92,7 @@ class User:
 
 
     def read_file(self):
-        '''Return data from the db.'''
+        '''Return data from the DB.'''
         try: 
             with open(User.database, 'r') as opened_file:    
                 return opened_file.read()
