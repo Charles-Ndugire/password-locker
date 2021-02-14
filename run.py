@@ -67,7 +67,7 @@ def main():
             login = False
             while not login:
                 print('--------------------------------------------------------')
-                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Please enter your email\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
+                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Enter your email\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
                 print('--------------------------------------------------------')
                 email = input()
                 if email == '1':
