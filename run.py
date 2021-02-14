@@ -123,7 +123,7 @@ def main():
                                             input()
                                         else:
                                             print('--------------------------------------------------------')
-                                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Something wrong happened. Please try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
+                                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry! Please try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
                                             print('--------------------------------------------------------')
                                         
                                         login = not login
