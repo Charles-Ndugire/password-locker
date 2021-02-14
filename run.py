@@ -181,13 +181,13 @@ def main():
                                         input()
                                     else:
                                         print('--------------------------------------------------------')
-                                        print('|\t\t\t\t\t\t\t|\n|\!!!!!!!!!!!!!!!!!!!!!!!!!!t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry Something wrong happened!\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
+                                        print('|\t\t\t\t\t\t\t|\n|\!!!!!!!!!!!!!!!!!!!!!!!!!!t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry Something went wrong!\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
                                         print('--------------------------------------------------------')
                             else:
                                 login = not login
                         else:
                             print('--------------------------------------------------------')
-                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Account does not exist. Please Sign Up\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
+                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Account does not exist in the system. Please Sign Up\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
                             print('--------------------------------------------------------')
                             error = input()
                             login = not login
