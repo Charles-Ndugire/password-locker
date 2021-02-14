@@ -1,15 +1,12 @@
 # Password-Locker
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+[Charles-Ndugire](https://github.com/Charles-Ndugire)
 
 ## Description
 
 This project is a python application that manages login and signup credentials of a person for various accounts i.e. username and passwords for each account. It also stores the passwords and generates a unique password for a user if they do not want to generate new passwords by themselves.
 
-## Screenshot
-
-<img src="https://raw.githubusercontent.com/Owiti-Charles/Password-Locker/master/images/ip1.png" width="900px" height="440px">
 
 ## User Stories
 The user would like to.... :
