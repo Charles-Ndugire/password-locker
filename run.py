@@ -8,7 +8,7 @@ def main():
     head = ' ***********************************************************************************************'
     while home:
         print(head)
-        print('|\t\t\t\t\t\t\t\t\t\t\t\t| \n|\t\t\t\tHi!.Welcome\tto\tthe\tPassword-Locker\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t***Have all your credentials from one point.***\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|\n|\tSelect a number to proceed...\t\t\t\t\t\t\t\t|\n|1. Create a password\t\t\t\t\t\t\t\t\t\t|\n|2. Login with an existing account  credentials\t\t\t\t\t\t\t\t\t\t|\n|3. Exit Password-Locker\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|')
+        print('|\t\t\t\t\t\t\t\t\t\t\t\t| \n|\tHi There!.Welcome to the Password-Locker System.\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t***Have all your credentials from one point.***\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|\n|\tSelect a number to proceed...\t\t\t\t\t\t\t\t|\n|1. Create a password\t\t\t\t\t\t\t\t\t\t|\n|2. Login with an existing account  credentials\t\t\t\t\t\t\t\t\t\t|\n|3. Exit Password-Locker\t\t\t\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t\t\t\t\t\t|')
         print(head)
 
         option = input()
