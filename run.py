@@ -139,19 +139,19 @@ def main():
                                                 
                                                 if user_created_account.create_credential():
                                                     print('--------------------------------------------------------')
-                                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Account created successfully.\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
+                                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Account Successfully created  .\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
                                                     print('--------------------------------------------------------')
                                                     input()
                                                 else:
                                                     print('--------------------------------------------------------')
-                                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Something wrong happened. Please try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
+                                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry! Please try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
                                                     print('--------------------------------------------------------')
                                                 
                                                 ok_create = not ok_create
                                                 login = not login
                                             else:
                                                 print('--------------------------------------------------------')
-                                                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Password too short try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
+                                                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry the password  is too short-Pleaset try again.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
                                                 print('--------------------------------------------------------')
                                                 ok_create = not ok_create    
                                 else:
