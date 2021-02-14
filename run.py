@@ -23,7 +23,7 @@ def main():
                     signup = not signup
                 else: 
                     print('--------------------------------------------------------')
-                    print('|\t\t\t\t\t\t\t|\n|\tWe are glad you are here.\t\t\t|\n|\t\t\t\t\t\t\t|\n|Please enter last name\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
+                    print('|\t\t\t\t\t\t\t|\n|\tHi! the system says- "Happy you are running me"\t\t\t|\n|\t\t\t\t\t\t\t|\n|Enter Your last name\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t1. Cancel\t\t|')
                     print('--------------------------------------------------------')
                     last_name = input()
                     if last_name == '1':
