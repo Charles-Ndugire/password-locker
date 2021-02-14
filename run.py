@@ -55,7 +55,7 @@ def main():
                                         signup = not signup
                                 else:
                                     print('--------------------------------------------------------')
-                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tSomething wrong happened\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tEnter\t\t\t\t|')
+                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tThe process was violated.Kindly repeat.\t\t|\n|\t\t\t\t\t\t\t|\n|\t\t\tPress Enter\t\t\t\t|')
                                     print('--------------------------------------------------------')
                                     status = input()
                                     if status == '1':
