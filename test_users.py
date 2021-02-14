@@ -28,13 +28,13 @@ class TestUsers(unittest.TestCase):
 
     def test_create_user(self):
         #Test
-        self.assertEqual('Kishy', self.new_user.get_first_name())
-        self.assertEqual('Gikish', self.new_user.get_last_name())
-        self.assertEqual('kishy@gmail.com', self.new_user.get_email())
+        self.assertEqual('Gaswoy', self.new_user.get_first_name())
+        self.assertEqual('Holy', self.new_user.get_last_name())
+        self.assertEqual('gaswoy@gmail.com', self.new_user.get_email())
         self.assertEqual('123@Iiht', self.new_user.get_password())
     
     def test_check_account_exist(self):
-        '''Test to ensure method can search if a user exists on th db.'''
+        '''Test and ensure the method can search if a user exists on th db or not .'''
         #Setup 
         self.new_user.create_account()
 
