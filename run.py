@@ -129,7 +129,7 @@ def main():
                                         login = not login
                                     else:
                                         print('--------------------------------------------------------')
-                                        print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Enter password to use.(Greater than 8 characters) \t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
+                                        print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Enter a password to use.(At least more than 8 characters long) \t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
                                         print('--------------------------------------------------------')
                                         account_password = input()
                                         ok_create = True
