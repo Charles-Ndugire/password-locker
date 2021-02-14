@@ -83,7 +83,7 @@ def main():
                         account_status = User.check_account_exist(email, password)
                         if account_status:
                             print('--------------------------------------------------------')
-                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tWE ARE IN\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|1. View Password Accounts\t\t\t\t|\n|2. Create new Password Account\t\t\t\t|\n|3. Delete a password Account\t\t\t\t|\n\t\t\t\t\t\t\t|')
+                            print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tYou are now logged in \t\t\t\t|\n|\t\t\t\t\t\t\t|\n|1. View Password Accounts\t\t\t\t|\n|2. Create a new Password Account\t\t\t\t|\n|3. Delete an existing Account\t\t\t\t|\n\t\t\t\t\t\t\t|')
                             print('--------------------------------------------------------')
                             perform = input()
                             if perform == '1':
