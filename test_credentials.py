@@ -8,7 +8,7 @@ class TestCredential(unittest.TestCase):
     def setUp(self):
         '''Set up credentials that will be used in the tests.'''
         self.test_user_credential = Credential('ndugirecharles@gmail.com', 'Twitter', '123@Iiht')
-        self.test_other_user_credential = Credential('grishon.nganga01@gmail.com', 'Instagram', '123@Iiht')
+        self.test_other_user_credential = Credential('ndugirecharles@gmail.com', 'Instagram', '123@Iiht')
 
     def tearDown(self):
         '''Clean up. Delete the credentials db after every test.'''
@@ -18,7 +18,7 @@ class TestCredential(unittest.TestCase):
     def test_intialize_credential(self):
         '''Test that Credential instance is created successfully.'''
 
-        self.assertEqual('grishon.nganga01@gmail.com', self.test_user_credential.get_email())
+        self.assertEqual('ndugirecharles@gmail.com', self.test_user_credential.get_email())
         self.assertEqual('Twitter', self.test_user_credential.get_account())
         self.assertEqual('123@Iiht', self.test_user_credential.get_password())
 
@@ -41,7 +41,7 @@ class TestCredential(unittest.TestCase):
             counter = 0
             for line in data_read:
                 counter += 1
-                if line['email'] == 'grishon.nganga01@gmail.com' and line['account'] == 'Twitter' and line['password'] == '123@Iiht':
+                if line['email'] == 'ndugirecharles@gmail.com' and line['account'] == 'Twitter' and line['password'] == '123@Iiht':
                     self.add_success = True 
    
             self.assertTrue(self.add_success)
