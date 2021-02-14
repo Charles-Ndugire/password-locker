@@ -109,7 +109,7 @@ def main():
                                 account_exists = Credential.check_an_account_exist(email, account)
                                 if len(account) > 0 and not account_exists :
                                     print('--------------------------------------------------------')
-                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tWE ARE IN\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|1. Get generated password\t\t\t\t|\n|2. Generate your own password\t\t\t\t|\n|\t\t\t\t\t\t\t|')
+                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|\t\tYou are now logged in\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|1. Get a system generated password\t\t\t\t|\n|2. Generate your own password\t\t\t\t|\n|\t\t\t\t\t\t\t|')
                                     print('--------------------------------------------------------')
                                     selected_account = input()
                                     if selected_account == '1':
