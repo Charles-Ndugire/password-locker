@@ -156,14 +156,14 @@ def main():
                                                 ok_create = not ok_create    
                                 else:
                                     print('--------------------------------------------------------')
-                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Sorry. Account already exist.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
+                                    print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|This Account already exists.\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t|')
                                     print('--------------------------------------------------------')
                                     input()  
                                     login = not login      
                             elif perform == '3':
                                 all_acounts = Credential.display_accounts(email)
                                 print('--------------------------------------------------------')
-                                print('|\t\t\t\t\t\t\t|\n|\tSelect the account to delete.\t\t\t|')
+                                print('|\t\t\t\t\t\t\t|\n|\tSelect the account you want to delete.\t\t\t|')
                                 if len(all_acounts) > 0:
                                     count = 1
                                     for account in all_acounts:
