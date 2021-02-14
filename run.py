@@ -89,7 +89,7 @@ def main():
                             if perform == '1':
                                 all_acounts = Credential.display_accounts(email)
                                 print('--------------------------------------------------------')
-                                print('|\t\t\t\t\t\t\t|\n|\tHere are all your accounts.\t\t\t|')
+                                print('|\t\t\t\t\t\t\t|\n|\tHolla!!!! See your accounts now.\t\t\t|')
                                 if len(all_acounts) > 0:
                                     count = 1
                                     for account in all_acounts:
@@ -103,7 +103,7 @@ def main():
                                 login = not login
                             elif perform == '2':
                                 print('--------------------------------------------------------')
-                                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|What account is this for? eg. Instagram, Twitter etc\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
+                                print('|\t\t\t\t\t\t\t|\n|\t\t\t\t\t\t\t|\n|Which  account is this? i.e Instagram/Twitter ...\t|\n|\t\t\t\t\t\t\t|\n|\t\tEnter\t\t\t\t\t|')
                                 print('--------------------------------------------------------')
                                 account = input()
                                 account_exists = Credential.check_an_account_exist(email, account)
