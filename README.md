@@ -17,38 +17,24 @@ The user would like to.... :
 * Copy my credentials to the clipboard
 
 
-## Installation / Setup instruction
-
-#### The application requires the following installations to operate 
-* python3.6 and above versions
-* pyperclip
-* pip
-
-#### Cloning
-
-* Open Terminal {Ctrl+Alt+T}
-
-* git clone ```https://github.com/Charles-Ndugire/password-locker```
-
-* cd password-locker
-
-* code . or atom . based on the text editor you mainly use.
-
-### Running the Application
-* To run the application, open the cloned file in terminal and run the following commands:
-
-        $ chmod +x interface.py
-        $ ./interface.py
-* To run test for the application
-        $ python3.9 run.py
-
 ## Setup/Installation Requirements
 
 
+#### Application requires python 3.6 and above versions. 
+* Clone the repo `git clone https://github.com/Charles-Ndugire/password-locker.git`
 * Navigate into the directory cd /password-locker
-* Run the application 
-         $ python3.9 run.py
+* Run the application python3 run.py
 
+##### Run Tests & Coverage
+
+Tests
+* `python -m unittest discover`\
+
+Coverage\
+NB: You will require coverage and pytest installed for this step.\
+`pip install coverage`\
+`pip install pytest`
+* `coverage run -m pytest`
 
 ## Technologies Used
 
