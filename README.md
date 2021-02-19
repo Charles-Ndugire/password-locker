@@ -1,4 +1,5 @@
 # Password-Locker
+
 ## Author
 
 [Charles-Ndugire](https://github.com/Charles-Ndugire)
